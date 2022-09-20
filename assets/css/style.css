@@ -78,16 +78,17 @@ button{
     font-size: 30px;
 }
 
-/* .bg-lg{
-    background-color: lightgray;
-} */
-
 .bg-lg{
     background-image: url(../img/wave.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* background-image: url(../img/wave.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
 
 .immagine, .text{
     flex-basis: 45%;
