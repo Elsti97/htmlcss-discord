@@ -5,48 +5,63 @@
 }
 
 header{
-    background-color: lightgray;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
 
 nav{
-    background-color: red;
-    width: 90%;
+    width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    padding-top: 40px;
+    font-size: 20px;
 }
 
 .logo{
     width: 100px;
-    height: 100px;
-    background-color: greenyellow;
 }
 
 .menu{
     width: 500px;
-    height: 100px;
-    background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
 }
-
-.accedi{
-    width: 100px;
-    height: 100px;
-    background-color: greenyellow;
-}
-
 
 .text-content{
-    width: 70%;
+    width: 60%;
     margin: auto;
-    background-color: lightsalmon;
-    height: 400px;
     text-align: center;
-    color:black;
+    padding-bottom: 200px;
+    padding-top: 50px;
+}
+
+.text-content > p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
 }
 
 h1{
     font-size: 50px;
-    padding-top: 30px;
+}
+
+button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+}
+
+#apri-browser{
+    background-color: black;
+    color: white;
+}
+
+.download-button::before{
+    content: '\2193';
 }
 
 .info{
@@ -128,24 +143,7 @@ footer{
 }
 
 .col-1{
-    background-color: lawngreen;
     width: 500px;
-}
-
-.col-2{
-    background-color: white;
-}
-
-.col-3{
-    background-color: magenta;
-}
-
-.col-4{
-    background-color: lightseagreen;
-}
-
-.col-5{
-    background-color: lightpink;
 }
 
 .piè{
