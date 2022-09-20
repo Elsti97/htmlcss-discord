@@ -60,43 +60,27 @@ button{
     color: white;
 }
 
-.download-button::before{
+.download::before, .download-button::before{
     content: '\2193';
 }
 
 .info{
     width: 80%;
     margin: auto;
-    background-color: chocolate;
     display: flex;
     justify-content: space-between;
     text-align: center;
+    padding-top: 80px;
+    font-size: 30px;
 }
 
 .bg-wave{
-    background-color: lightgray;
+    background-color: #F6F6F6;
 }
 
-.immagine{
-    width: 45%;
-    height: 200px;
-}
-
-.text{
-    width: 45%;
-    height: 200px;
-}
-
-.uno{
-    background-color: blanchedalmond;
-}
-
-.due{
-    background-color:darkturquoise
-}
-
-.tre{
-    background-color: cornflowerblue;
+.immagine, .text{
+    flex-basis: 45%;
+    margin-bottom: 40px;
 }
 
 .order-2{
@@ -104,30 +88,33 @@ button{
 }
 
 .tech{
-    padding-top: 40px;
+    font-size: 30px;
 }
 
 .tech > *{
     width: 80%;
     margin: auto;
-    height: 200px;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
-.sottotitolo{
-    background-color: darkorange;
+.tecnologia{
     text-align: center;
 }
 
-.saluti{
-    background-color: fuchsia;
+.download{
+    background-color: lightblue;
+    color: white;
 }
 
-.download{
-    background-color: mediumvioletred;
+h3{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-size: contain;
 }
 
 footer{
-    background-color: darkgray;
+    background-color: #24272A;
 }
 
 .columns{
@@ -147,7 +134,7 @@ footer{
 }
 
 .piè{
-    border-top: 5px solid blue;
+    border-top: 1px solid lightblue;
     width: 80%;
     margin: auto;
     display: flex;
